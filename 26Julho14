@@ -1,5 +1,0 @@
-Quando você gera com (ou sem) alguma compressão, tem que verificar se o arquivo de saída esta na compressão desejada, por exemplo,
-quando está sem compressão, ao invés de deixar o arquivo descomprimido, ele está mantendo a compressão atual.
-Na gdal se não me engano usa um comando RAW quando não tem. Só fazer esse pequeno ajuste. Você pode olhar essas características rodando um gdalinfo no arquivo.
-A parte do JP2, chamando a gdal pelo python deve dar problema mesmo.
-Você pode agora repetir o exercício feito, mas criando um comando da gdal pra linha de comando, pra isso você vai usar a biblioteca "os".
